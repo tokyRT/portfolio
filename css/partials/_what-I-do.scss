@@ -1,0 +1,73 @@
+body > .what-I-do {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .content {
+        margin-left: 15vw;
+        position: relative;
+        & > h2 {
+            font-family: $joyride;
+            color: $cyan;
+            margin-bottom: 40px;
+            font-size: 3.1em;
+            letter-spacing: 0.1em;
+            @media screen and (max-width: $smBreakpoint) {
+                font-size: 2.5em;
+            }
+        }
+        .services {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1000px;
+            .gradient {
+                background: rgb(1, 30, 220);
+                background: radial-gradient(circle, rgba(1, 30, 220, 1) 0%, rgba(1, 30, 220, 0) 62%);
+                width: 220px;
+                height: 220px;
+                pointer-events: none;
+                position: absolute;
+                top: -30px;
+                left: -100px;
+            }
+            .service {
+                max-width: 250px;
+                margin-right: 20px;
+                position: relative;
+                z-index: 2;
+                margin-top: 20px;
+                h4 {
+                    font-weight: 800;
+                    font-family: $gilroyBold;
+                    font-size: 1.5em;
+                    line-height: 1.2em;
+                }
+            }
+        }
+        .david {
+            position: absolute;
+            width: 20vw;
+            right: 0;
+            bottom: -20vw;
+            z-index: 1;
+            @media screen and (max-width: 945px) {
+                width: 30vw;
+            }
+        }
+        @media screen and (max-width: 630px) {
+            margin-left: 10vw;
+            margin-right: 10vw;
+            .services {
+                .service {
+                    max-width: initial;
+                    margin-right: 0;
+                }
+            }
+            .david{
+                display: none;
+            }
+        }
+    }
+}

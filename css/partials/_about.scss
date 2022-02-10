@@ -1,0 +1,106 @@
+body>.about{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid white;
+    .content{
+        position: relative;
+        padding-top: 1.5vw;
+        margin-top: 6vw;
+        &:hover{
+            &>img{
+                animation: hueAnim 3s linear infinite alternate-reverse;
+            }
+        }
+        &>img{
+            width: 36vw;
+            position: absolute;
+            left: -11vw;
+            top: -8vw;
+            // pointer-events: none;
+           
+            
+        }
+        .creative{
+            width: 22vw;
+            // border: 1px solid red;
+            position: relative;
+            margin-bottom: -1vw;
+        }
+        h2{
+            font-size: 6.4vw;
+            font-weight: 800;
+            font-family: $gilroyBold;
+            // border: 1px solid red;
+            margin: 0;
+            position: relative;
+        }
+        p{
+            max-width: 350px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+    @function add($size, $precentage){
+        @return $size + ($size*$precentage/100);
+    }
+    @media screen and (max-width: 970px) {
+        $percent: 30;
+        .content{
+            &>img{
+                width: add(36vw, $percent);
+                left: add(-11vw, $percent);
+                top: add(-8vw, $percent);
+            }
+            .creative{
+                width: add(22vw, $percent);
+                margin-bottom: add(-1vw, $percent);
+                path{
+                    stroke-width: 2px;
+                }
+            }
+            h2{
+                font-size: add(6.4vw, $percent);
+            }
+            p{
+                max-width: 300px;
+            }
+        }
+    }
+    @media screen and (max-width: 580px) {
+        $percent: 50;
+        .content{
+            margin-right: 10vw;
+            margin-left: 10vw;
+            margin-top: 23vw;
+            &>img{
+                width: add(46vw, $percent);
+                left: add(-11vw, $percent);
+                top: add(-12vw, $percent);
+            }
+            .creative{
+                width: add(30vw, $percent);
+                margin-bottom: add(-2vw, $percent);
+                path{
+                    stroke-width: 2px;
+                }
+            }
+            h2{
+                font-size: add(6.4vw, $percent);
+            }
+            p{
+                max-width: initial;
+                margin-left: 0;
+                margin-top: 20vw;
+            }
+        }
+    }
+}
+@keyframes hueAnim {
+    to{
+        filter: hue-rotate(360deg);
+    }
+}

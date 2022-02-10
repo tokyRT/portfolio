@@ -1,0 +1,116 @@
+body > .skillsSection {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    .gradient-blue-2 {
+        position: absolute;
+        width: 900px;
+        max-width: 95vw;
+        height: 900px;
+        max-height: 95vw;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgb(1, 30, 220);
+        background: radial-gradient(circle, rgba(1, 30, 220, 1) 0%, rgba(1, 30, 220, 0) 62%);
+        background-repeat: no-repeat;
+        background-position-x: -450px;
+        pointer-events: none;
+    }
+    .abstract-wave{
+        width: 350px;
+        height: 500px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: url("../../img/abstract-wave-2.png") no-repeat left top;
+        background-size: cover;
+        @media screen and (max-width: $smBreakpoint) {
+            bottom: -100px;
+            width: 200px;
+        }
+    }
+    .content {
+        position: relative;
+        h1 {
+            position: absolute;
+            font-family: $joyride;
+            font-size: 5em;
+            transform: translateY(4.7em) rotateZ(-90deg);
+            transform-origin: top left;
+            left: 0;
+            top: 0;
+            margin-left: 15vw;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin-left: 25vw;
+            justify-content: space-between;
+            position: relative;
+            z-index: 2;
+            .categorie {
+                width: 350px;
+                margin-bottom: 35px;
+                h2 {
+                    font-family: $gilroyBold;
+                    font-weight: 800;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+        @media screen and (max-width: 945px) {
+            h1{
+                margin-left: 3vw;
+            }
+            .categories{
+                max-width: initial;
+                margin-left: 17vw;
+            }
+        }
+        @media screen and (max-width: 850px) {
+            h1{
+                position: initial;
+                transform: initial;
+                margin-left: 10vw;
+                margin-bottom: 40px;
+                font-size: 3em;
+            }
+            .categories{
+                margin-left: 10vw;
+
+            }
+        }
+        @media screen and (max-width: 790px) {
+            h1{
+                margin-top: 30vh;
+            }
+            .categories{
+                .categorie{
+                    width: 100%;
+                    margin-bottom: 25px;
+                    h2{
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+ul.skills {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        border-radius: 30px;
+        border: 1px solid $pink;
+        text-align: center;
+        padding: 5px 16px;
+        margin-right: 15px;
+        margin-bottom: 12px;
+    }
+}

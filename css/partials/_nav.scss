@@ -1,0 +1,48 @@
+nav{
+    padding: 25px 3%;
+    ul{
+        height: $navHeight;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .navbar-brand{
+            img{
+                width: $navHeight;
+            }
+        }
+        .navbar-toggler{
+            ul{
+                flex-direction: column;
+                height: 30px;
+                li{
+                    width: 33px;
+                    height: 3px;
+                    background-color: $mainTextColor;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: $smBreakpoint) {
+        padding: 25px 7%;
+        ul{
+            height: 40px;
+            .navbar-brand{
+                img{
+                    width: 40px;
+                }
+            }
+            .navbar-toggler{
+                ul{
+                    height: 25px;
+                    li{
+                        width: 30px;
+                        height: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

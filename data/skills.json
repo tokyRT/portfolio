@@ -1,0 +1,22 @@
+[
+    {
+        "categorie_name": "Stacks",
+        "color": "#FF004B",
+        "skills": ["Laravel", "VueJs", "CSS3", "Sass", "HTML5"]
+    },
+    {
+        "categorie_name": "Database",
+        "color": "#07FDDB",
+        "skills": ["SQL", "MySql"]
+    },
+    {
+        "categorie_name": "Tools",
+        "color": "#011EDC",
+        "skills": ["Git", "Github", "Adobe XD", "Figma", "Adobe Photoshop", "Adobe Illustrator"]
+    },
+    {
+        "categorie_name": "Others",
+        "color": "#FFFFFF",
+        "skills": ["UI/UX design", "Graphic design", "Leadership", "Communication"]
+    }
+]

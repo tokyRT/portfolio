@@ -1,28 +1,9 @@
-body{
-    background-color: #011011;
-    margin: 0;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 80vh;
-    padding-left: 10%;
-    .get{
-        background-color: #FF004B;
-        border-radius: 5px;
-        padding: 10px;
-        text-decoration: none;
-        color: white;
-        margin-bottom: 50px;
-    }
-    .social{
-        a{
-            color: white;
-            text-decoration: none;
-            margin-right: 15px;
-            font-size: 1.5em;
-        }
-    }
-}
+@import 'partials/variables';
+@import 'partials/common';
+@import 'partials/nav';
+@import 'partials/hero';
+@import 'partials/about';
+@import 'partials/what-I-do';
+@import 'partials/skills';
+@import 'partials/experiences';
+@import 'partials/projects';

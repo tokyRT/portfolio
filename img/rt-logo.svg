@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+  <g id="rt-logo" transform="translate(-61 -27)">
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(61 27)" fill="#090909" stroke="#fff" stroke-width="2">
+      <rect width="51" height="51" stroke="none"/>
+      <rect x="1" y="1" width="49" height="49" fill="none"/>
+    </g>
+    <g id="Groupe_67" data-name="Groupe 67" transform="translate(-2)">
+      <path id="Tracé_260" data-name="Tracé 260" d="M12.84,0H18L13.53-7.71A6.921,6.921,0,0,0,17.4-13.8,7.183,7.183,0,0,0,10.2-21H1.8V0H6.6V-6.9H8.88ZM6.6-16.5h3.6a2.543,2.543,0,0,1,2.4,2.7,2.543,2.543,0,0,1-2.4,2.7H6.6Zm21.99,5.82V-15H25.5v-4.2L21-17.85V-15H18.6v4.32H21v5.31C21-1.17,22.71.6,28.59,0V-4.08c-1.98.12-3.09,0-3.09-1.29v-5.31Z" transform="translate(68 70)" fill="#fff"/>
+      <path id="Tracé_262" data-name="Tracé 262" d="M.22,0H4.98V-1.54H2.63L3.79-2.71a3.155,3.155,0,0,0,1.09-2.2A2.227,2.227,0,0,0,2.51-7.14,2.5,2.5,0,0,0,.15-5.61l1.35.79a1.126,1.126,0,0,1,1.03-.76.7.7,0,0,1,.75.74A1.983,1.983,0,0,1,2.57-3.6L.22-1.16ZM7.06-7l-1.83.66.39,1.37,1.24-.34V0h1.6V-7Z" transform="translate(69 41)" fill="#fff"/>
+      <path id="Tracé_261" data-name="Tracé 261" d="M4.2.42A2.868,2.868,0,0,0,7.05-2.43,2.868,2.868,0,0,0,4.2-5.28,2.868,2.868,0,0,0,1.35-2.43,2.868,2.868,0,0,0,4.2.42Z" transform="translate(102 70)" fill="#ff004b"/>
+    </g>
+  </g>
+</svg>

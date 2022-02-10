@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Joyride-Regular';
+    src: url("../../fonts/Joyride-Regular.otf");
+}
+@font-face {
+    font-family: 'Gilroy-light';
+    src: url("../../fonts/Gilroy-Light.otf");
+}
+
+html{
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $mainBgColor;
+    color: $mainTextColor;
+    font-family: $gilroyLight;
+}
+p{
+    line-height: 1.5em;
+}
+#customCursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    mix-blend-mode: difference;
+    z-index: 99;
+    // background-color: rgb(98, 0, 255);
+    pointer-events: none;
+    will-change: transform;
+    // transition: all .2s cubic-bezier(0.17,0.84,0.44,1);
+    // transition: all .3s cubic-bezier(0.25,0.33,0.24,0.95);
+    transition: all 0.20s cubic-bezier(0.3, 0.71, 0.39, 0.94);
+    &.on-link {
+        width: 90px;
+        height: 90px;
+        // background-color: transparent;
+        // border: 4px solid white;
+    }
+    @media screen and (max-width: 880px){
+        display: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $mainBgColor;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(236, 236, 236);
+}

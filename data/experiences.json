@@ -1,0 +1,69 @@
+[
+    {
+        "period": {
+            "from": "oct 2021",
+            "to": "present"
+        },
+        "company": {
+            "name": "Club d'Entraide de l'ENI (C2E)",
+            "website": "www.facebook.com/entraideeni"
+        },
+        "position": "Volunteer",
+        "tasks": [
+            "Communication responsible",
+            "Graphic designer",
+            "Mentor"
+        ],
+        "skills": [] 
+    },
+
+    {
+        "period": {
+            "from": "mar 2021",
+            "to": "may 2021"
+        },
+        "company": {
+            "name": "Logia Studios Madagascar",
+            "website": "www.logiastudios.com"
+        },
+        "position": "web developer intern",
+        "tasks": [
+            "Conception, intégration, déploiement des sites web de la clientèle au sein du département digital",
+            "Maintenance des sites et applications web existants",
+            "Intégration, planification des newsletters "
+        ],
+        "skills": ["Laravel", "VueJs", "Sass", "HTML5"] 
+    },
+
+    {
+        "period": {
+            "from": "may 2021",
+            "to": "oct 2021"
+        },
+        "company": {
+            "name": "Logia Studios Madagascar",
+            "website": "www.logiastudios.com"
+        },
+        "position": "web developer",
+        "tasks": [
+            "Conception, intégration, déploiement des sites web de la clientèle au sein du département digital",
+            "Maintenance des sites et applications web existants",
+            "Intégration, planification des newsletters "
+        ],
+        "skills": ["Laravel", "VueJs", "Sass", "HTML5"] 
+    },
+
+    {
+        "period": {
+            "from": "oct 2021",
+            "to": "present"
+        },
+        "company": {
+            "name": "Microsoft Learn",
+            "website": ""
+        },
+        "position": "Microsoft learn student ambassador",
+        "tasks": [],
+        "skills": [] 
+    }
+]
