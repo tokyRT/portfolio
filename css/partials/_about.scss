@@ -10,11 +10,6 @@ body>.about{
         position: relative;
         padding-top: 1.5vw;
         margin-top: 6vw;
-        &:hover{
-            &>img{
-                animation: hueAnim 3s linear infinite alternate-reverse;
-            }
-        }
         &>img{
             width: 36vw;
             position: absolute;
@@ -29,6 +24,9 @@ body>.about{
             // border: 1px solid red;
             position: relative;
             margin-bottom: -1vw;
+            path{
+                stroke-width: 2;
+            }
         }
         h2{
             font-size: 6.4vw;
@@ -97,10 +95,5 @@ body>.about{
                 margin-top: 20vw;
             }
         }
-    }
-}
-@keyframes hueAnim {
-    to{
-        filter: hue-rotate(360deg);
     }
 }

@@ -30,12 +30,18 @@ body>.projectsSection{
                     a{
                         position: absolute;
                         right: 15px;
-                        bottom: 15px;
+                        bottom: -30px;
                         background-color: white;
                         border-radius: 20px;
                         padding: 5px 10px;
                         color: $mainBgColor;
                         text-decoration: none;
+                        overflow: hidden;
+                        span{
+                            position: absolute;
+                            width: 100px;
+                            right: 10px;
+                        }
                     }
                 }
                 h3{

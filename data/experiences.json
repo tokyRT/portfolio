@@ -28,9 +28,8 @@
         },
         "position": "web developer intern",
         "tasks": [
-            "Conception, intégration, déploiement des sites web de la clientèle au sein du département digital",
-            "Maintenance des sites et applications web existants",
-            "Intégration, planification des newsletters "
+            "Development of a web application for the management of deliverables and customer feedback",
+            "Realization of a web application for the management of press reviews"
         ],
         "skills": ["Laravel", "VueJs", "Sass", "HTML5"] 
     },
@@ -46,9 +45,9 @@
         },
         "position": "web developer",
         "tasks": [
-            "Conception, intégration, déploiement des sites web de la clientèle au sein du département digital",
-            "Maintenance des sites et applications web existants",
-            "Intégration, planification des newsletters "
+            "Design, integration, deployment of customer websites within the digital department",
+            "Maintenance of existing websites and web applications",
+            "Integration, newsletter planning "
         ],
         "skills": ["Laravel", "VueJs", "Sass", "HTML5"] 
     },

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Bacc Mada",
+        "link" : "",
+        "cover": "bacc-mada.jpg",
+        "stacks": ["UI design", "Integration"]
+    },
+    {
+        "name": "Enjob",
+        "link" : "",
+        "cover": "enjob.jpg",
+        "stacks": ["UI design", "Laravel", "VueJs"]
+    },
+    {
+        "name": "wedo-pro.com",
+        "link" : "https://www.wedo-pro.com",
+        "cover": "wedo.jpg",
+        "stacks": ["Laravel", "HTML5", "Sass", "JavaScript", "Jquery"]
+    },
+    {
+        "name": "worldoftech-events.com",
+        "link" : "https://www.worldoftech-events.com",
+        "cover": "wot.jpg",
+        "stacks": ["Laravel", "HTML5", "Sass", "JavaScript", "Jquery"]
+    },
+    {
+        "name": "logiastudios.com",
+        "link" : "https://www.logiastudios.com",
+        "cover": "wot.jpg",
+        "stacks": ["Laravel", "HTML5", "Sass", "JavaScript", "VueJs"]
+    },
+    {
+        "name": "My portfolio",
+        "link" : "https://toky.netlify.com",
+        "cover": "portfolio.jpg",
+        "stacks": ["UI design", "HTML5", "Sass", "JavaScript", "Jquery", "GSAP"]
+    }
+]

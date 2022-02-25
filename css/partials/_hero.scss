@@ -11,6 +11,12 @@
         // border: 1px solid red;
         .hello {
             width: 20vw;
+            path{
+                // stroke-dasharray: 90;
+                // stroke-dashoffset: 90;
+                stroke-width: 2;
+                transition: fill .3s ease;
+            }
         }
         h1 {
             margin: 0;

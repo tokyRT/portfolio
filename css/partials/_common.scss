@@ -9,6 +9,7 @@
 
 html{
     font-size: 14px;
+    overflow: hidden;
 }
 
 *{
@@ -48,6 +49,17 @@ p{
     }
     @media screen and (max-width: 880px){
         display: none;
+    }
+}
+
+.disclaimerSection{
+    max-width: 1340px;
+    margin: auto;
+    margin-bottom: 20vh;
+    padding-right: 20px;
+    padding-left: 20px;
+    a{
+        color: $cyan;
     }
 }
 
