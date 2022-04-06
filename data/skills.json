@@ -2,7 +2,7 @@
     {
         "categorie_name": "Stacks",
         "color": "#FF004B",
-        "skills": ["Laravel", "VueJs", "CSS3", "Sass", "HTML5"]
+        "skills": ["ReactJs", "VueJs", "Laravel", "CSS3", "Sass", "HTML5"]
     },
     {
         "categorie_name": "Database",

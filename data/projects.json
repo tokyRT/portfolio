@@ -26,7 +26,7 @@
     {
         "name": "logiastudios.com",
         "link" : "https://www.logiastudios.com",
-        "cover": "wot.jpg",
+        "cover": "logia.jpg",
         "stacks": ["Laravel", "HTML5", "Sass", "JavaScript", "VueJs"]
     },
     {
