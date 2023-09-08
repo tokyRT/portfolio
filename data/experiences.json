@@ -1,21 +1,5 @@
 [
-    {
-        "period": {
-            "from": "oct 2021",
-            "to": "present"
-        },
-        "company": {
-            "name": "Club d'Entraide de l'ENI (C2E)",
-            "website": "www.facebook.com/entraideeni"
-        },
-        "position": "Volunteer",
-        "tasks": [
-            "Communication responsible",
-            "Graphic designer",
-            "Mentor"
-        ],
-        "skills": [] 
-    },
+    
 
     {
         "period": {
@@ -51,18 +35,51 @@
         ],
         "skills": ["Laravel", "VueJs", "Sass", "HTML5"] 
     },
-
     {
         "period": {
-            "from": "oct 2021",
+            "from": "2022",
+            "to": ""
+        },
+        "company": {
+            "name": "Ecole Nationale d'Informatique",
+            "website": "https://concours.eni.mg/"
+        },
+        "position": "Frontend developer",
+        "tasks": [
+            "Development of the school's admission platform (concours.eni.mg)",
+            "Design of the user interfaces for the platform"
+        ],
+        "skills": ["TeactJs", "Scss","Figma"] 
+    },
+    {
+        "period": {
+            "from": "sep 2022",
+            "to": "feb 2023"
+        },
+        "company": {
+            "name": "RELIA Consulting",
+            "website": "https://relia-consulting.com/"
+        },
+        "position": "Fullstack developer intern",
+        "tasks": [
+            "Design and development of an Identity Provider for a super application.",
+            "Designing user interfaces for certain internal projects."
+        ],
+        "skills": ["NodeJs","OPenID", "Express", "Redis", "MongoDB", "NextJs", "Figma"] 
+    },
+    {
+        "period": {
+            "from": "april 2023",
             "to": "present"
         },
         "company": {
-            "name": "Microsoft Learn",
-            "website": ""
+            "name": "Dizeo Agency",
+            "website": "https://www.dizeo-agency.com"
         },
-        "position": "Microsoft learn student ambassador",
-        "tasks": [],
-        "skills": [] 
+        "position": "Web designer consultant",
+        "tasks": [
+            "Design and development of showcase websites for the agency's clientele."
+        ],
+        "skills": ["Figma", "Wordpress", "NextJs"] 
     }
 ]

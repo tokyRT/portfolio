@@ -1,22 +1,27 @@
 [
     {
-        "categorie_name": "Stacks",
-        "color": "#FF004B",
-        "skills": ["ReactJs", "VueJs", "Laravel", "CSS3", "Sass", "HTML5"]
+        "categorie_name": "Langages",
+        "color": "#07fd3c",
+        "skills": ["JavaScript", "TypeScript", "SQL", "PHP", "HTML", "Sass"]
     },
     {
-        "categorie_name": "Database",
+        "categorie_name": "Stacks & libraries",
+        "color": "#FF004B",
+        "skills": ["React", "NextJs", "NodeJs", "ExpressJs", "Zustand", "Chakra UI", "Styled Component", "Jest"]
+    },
+    {
+        "categorie_name": "Databases",
         "color": "#07FDDB",
-        "skills": ["SQL", "MySql"]
+        "skills": ["MySql", "PostgreSQL", "MongoDB", "Redis"]
     },
     {
         "categorie_name": "Tools",
         "color": "#011EDC",
-        "skills": ["Git", "Github", "Adobe XD", "Figma", "Adobe Photoshop", "Adobe Illustrator"]
+        "skills": ["Git", "Github", "Gitlab", "Jira", "Figma", "Adobe XD", "Adobe Photoshop"]
     },
     {
-        "categorie_name": "Others",
+        "categorie_name": "Graphic design",
         "color": "#FFFFFF",
-        "skills": ["UI/UX design", "Graphic design", "Leadership"]
+        "skills": ["UI/UX design", "Web Design", "Social Media Design"]
     }
 ]
