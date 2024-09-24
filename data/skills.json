@@ -1,6 +1,6 @@
 [
     {
-        "categorie_name": "Langages",
+        "categorie_name": "Languages",
         "color": "#07fd3c",
         "skills": ["JavaScript", "TypeScript", "SQL", "PHP", "HTML", "Sass"]
     },

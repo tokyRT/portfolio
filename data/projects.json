@@ -18,7 +18,7 @@
         "stacks": ["Figma", "HTML5", "SCSS", "JavaScript"]
     },
     {
-        "name": "Doonation",
+        "name": "Doonation - Donation platform for malagasy creators",
         "link" : "",
         "cover": "doonation.webp",
         "stacks": ["Figma"]
@@ -42,9 +42,27 @@
         "stacks": ["JavaScript", "Jquery", "HTML5", "SCSS"]
     },
     {
-        "name": "Proxizone",
+        "name": "Proxizone - Food ordering app landing page",
         "link": "",
         "cover": "proxizone.webp",
         "stacks": ["Figma", "NextJs", "SCSS"]
+    },
+    {
+        "name": "ENI Admission - School admission platform",
+        "link": "https://concours.eni.mg/",
+        "cover": "eni-admission.webp",
+        "stacks": ["ReactJs", "Formik", "SCSS", "Figma"]
+    },
+    {
+        "name": "Resultats Bacc - Messenger bot",
+        "link": "https://www.facebook.com/bacc.2024.mg",
+        "cover": "bacc-bot.webp",
+        "stacks": ["NodeJs", "ExpressJs", "MongoDB", "Facebook API"]
+    },
+    {
+        "name": "Magic Search Figma Plugin",
+        "link": "https://github.com/tokyRT/Magic-Search-Plugin",
+        "cover": "mtg-plugin.webp",
+        "stacks": ["Preact", "TypeScript"]
     }
 ]

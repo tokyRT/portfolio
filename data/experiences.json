@@ -76,10 +76,26 @@
             "name": "Dizeo Agency",
             "website": "https://www.dizeo-agency.com"
         },
-        "position": "Web designer consultant",
+        "position": "Web developer & UI/UX designer",
         "tasks": [
             "Design and development of showcase websites for the agency's clientele."
         ],
         "skills": ["Figma", "Wordpress", "NextJs"] 
+    }, 
+    {
+        "period": {
+            "from": "may 2024",
+            "to": "jul 2024"
+        },
+        "company": {
+            "name": "Resumedone.co",
+            "website": "https://www.resumedone.co"
+        },
+        "position": "Frontend Developer",
+        "tasks": [
+            "Maintain the company's Saas platform (resumedone.co)",
+            "Create and maintain the company's marketing blogs using webflow."
+        ],
+        "skills": ["NextJs", "ReactJs", "Webflow", "Apollo Graphql"] 
     }
 ]

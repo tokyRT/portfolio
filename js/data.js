@@ -38,7 +38,7 @@ fetch("../data/experiences.json")
                         <span>${xp.period.to}</span>
                         </div>
                         <div class="details">
-                        <h3 class="company"><a href="${xp.company.website}">${xp.company.name}</a></h3>
+                        <h3 class="company"><a href="${xp.company.website}" target="_blank">${xp.company.name}</a></h3>
                         <h4 class="post">${xp.position}</h4>
                         <ul class="tasks">`;
 
