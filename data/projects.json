@@ -48,6 +48,18 @@
         "stacks": ["Figma", "NextJs", "SCSS"]
     },
     {
+        "name": "Innoventis Group",
+        "link": "https://innoventisgroup.com/",
+        "cover": "innoventis.webp",
+        "stacks": ["Wordpress"]
+    },
+    {
+        "name": "Dizeo Agency",
+        "link": "https://www.dizeo-agency.com/",
+        "cover": "dizeo.webp",
+        "stacks": ["NextJs", "Figma", "Wordpress"]
+    },
+    {
         "name": "ENI Admission - School admission platform",
         "link": "https://concours.eni.mg/",
         "cover": "eni-admission.webp",
