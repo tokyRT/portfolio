@@ -7,13 +7,13 @@
     },
     {
         "name": "My portfolio",
-        "link" : "https://toky.netlify.com",
+        "link" : "https://toky-rt.dev/",
         "cover": "portfolio.webp",
         "stacks": ["Adobe XD", "HTML5", "Sass", "JavaScript", "Jquery", "GSAP"]
     },
     {
         "name": "Frontend Awards",
-        "link" : "https://fa-2022-yasai.netlify.app/",
+        "link" : "https://fa-2022.toky-rt.dev/",
         "cover": "fa.webp",
         "stacks": ["Figma", "HTML5", "SCSS", "JavaScript"]
     },
@@ -25,19 +25,19 @@
     },
     {
         "name": "Critical path visualizer",
-        "link": "https://critical-path-method-visualizer.netlify.app/",
+        "link": "https://critical-path-method-visualizer.toky-rt.dev/",
         "cover": "cpm.webp",
         "stacks": ["React", "Zustand", "ViteJs", "Reactflow", "Figma", "python"]
     },
     {
         "name": "Gasy quotes explorer",
-        "link": "https://gasy-quotes-explorer.netlify.app",
+        "link": "https://gasy-quotes-explorer.toky-rt.dev",
         "cover": "gasy-quotes.webp",
         "stacks": ["React", "Zustand", "ViteJs", "Figma"]
     },
     {
         "name": "Ludo game clone",
-        "link": "https://ludo-mg.netlify.app/",
+        "link": "https://ludo.toky-rt.dev/",
         "cover": "ludo-game.webp",
         "stacks": ["JavaScript", "Jquery", "HTML5", "SCSS"]
     },
