@@ -21,9 +21,10 @@
         h1 {
             margin: 0;
             font-weight: 800;
-            font-family: $gilroyBold;
+            font-family: $joyride;
             font-size: 8.6vw;
-            line-height: 12vw;
+            font-size: 12rem;
+            // line-height: 12vw;
             margin-left: -10px;
         }
         .socials {
@@ -37,7 +38,9 @@
     }
     .image {
         height: calc(100vh - 100px);
-        position: relative;
+        position: absolute;
+        right: 0;
+        bottom: 0;
         align-self: flex-end;
         img {
             height: 100%;
@@ -112,7 +115,7 @@
             h1{
                 margin-left: 0;
                 font-size: 14vw;
-                margin-bottom: 90px;
+                margin-bottom: 40px;
             }
             .socials{
                 li{
@@ -124,7 +127,7 @@
             position: absolute;
             right: 0;
             bottom: 0;
-            width: 60vw;
+            width: 70vw;
         }
     }
 }

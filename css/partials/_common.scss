@@ -6,7 +6,10 @@
     font-family: 'Gilroy-light';
     src: url("../../fonts/Gilroy-Light.otf");
 }
-
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: url("../../fonts/Gilroy-ExtraBold.otf");
+}
 html{
     font-size: 14px;
     overflow: hidden;
