@@ -2,7 +2,12 @@
     {
         "categorie_name": "Languages",
         "color": "#07fd3c",
-        "skills": ["JavaScript", "TypeScript", "SQL", "PHP", "HTML", "Sass"]
+        "skills": ["JavaScript", "TypeScript", "SQL", "Smalltalk", "Pharo", "Python", "Sass"]
+    },
+    {
+        "categorie_name": "Methodologies & Practices",
+        "color": "#FFB800",
+        "skills": ["OOP", "TDD", "A/B Testing", "Agile Methodology", "Scrum", "Kanban"]
     },
     {
         "categorie_name": "Stacks & libraries",
@@ -12,16 +17,11 @@
     {
         "categorie_name": "Databases",
         "color": "#07FDDB",
-        "skills": ["MySql", "PostgreSQL", "MongoDB", "Redis"]
+        "skills": ["MySql", "PostgreSQL", "PostGis", "MongoDB", "Redis"]
     },
     {
         "categorie_name": "Tools",
         "color": "#011EDC",
-        "skills": ["Git", "Github", "Gitlab", "Jira", "Figma", "Adobe XD", "Adobe Photoshop"]
-    },
-    {
-        "categorie_name": "Graphic design",
-        "color": "#FFFFFF",
-        "skills": ["UI/UX design", "Web Design", "Social Media Design"]
+        "skills": ["Git", "Github", "Gitlab", "Jira", "Figma", "Notion"]
     }
 ]
