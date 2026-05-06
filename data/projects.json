@@ -1,11 +1,5 @@
 [
     {
-        "name": "Bacc Mada",
-        "link" : "",
-        "cover": "bacc-mada.webp",
-        "stacks": ["Photoshop", "Integration"]
-    },
-    {
         "name": "My portfolio",
         "link" : "https://toky-rt.dev/",
         "cover": "portfolio.webp",
@@ -76,5 +70,11 @@
         "link": "https://github.com/tokyRT/Magic-Search-Plugin",
         "cover": "mtg-plugin.webp",
         "stacks": ["Preact", "TypeScript"]
+    },
+    {
+        "name": "Famix-C-Importer",
+        "link": "https://github.com/moosetechnology/Famix-C-Importer",
+        "cover": "famix-c.webp",
+        "stacks": ["Smalltalk", "Pharo", "Moose", "C", "Visitor pattern", "tree-sitter"]
     }
 ]

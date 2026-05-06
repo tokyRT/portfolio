@@ -55,11 +55,11 @@ body > .skillsSection {
             .categorie {
                 // max-width: 450px;
                 width: 45%;
-                margin-bottom: 35px;
+                margin-bottom: 20px;
                 h2 {
                     font-family: $gilroyBold;
                     font-weight: 800;
-                    margin-bottom: 35px;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -111,7 +111,13 @@ ul.skills {
         border: 1px solid $pink;
         text-align: center;
         padding: 5px 16px;
-        margin-right: 15px;
-        margin-bottom: 12px;
+        margin-right: 12px;
+        margin-bottom: 10px;
+        &.skill-sm{
+            padding: 3px 8px;
+            font-size: .8em;
+            margin-right: 8px;
+            margin-bottom: 5px;
+        }
     }
 }

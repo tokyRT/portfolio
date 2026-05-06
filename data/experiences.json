@@ -49,7 +49,7 @@
             "Development of the school's admission platform (concours.eni.mg)",
             "Design of the user interfaces for the platform"
         ],
-        "skills": ["TeactJs", "Scss","Figma"] 
+        "skills": ["ReactJs", "Scss","Figma"] 
     },
     {
         "period": {
@@ -62,7 +62,7 @@
         },
         "position": "Fullstack developer intern",
         "tasks": [
-            "Design and development of an Identity Provider for a super application.",
+            "Design and development of an Identity Provider for a super-app.",
             "Designing user interfaces for certain internal projects."
         ],
         "skills": ["NodeJs","OPenID", "Express", "Redis", "MongoDB", "NextJs", "Figma"] 
@@ -70,7 +70,7 @@
     {
         "period": {
             "from": "apr 2023",
-            "to": "present"
+            "to": "nov 2023"
         },
         "company": {
             "name": "Dizeo Agency",
@@ -80,7 +80,7 @@
         "tasks": [
             "Design and development of showcase websites for the agency's clientele."
         ],
-        "skills": ["Figma", "Wordpress", "NextJs"] 
+        "skills": ["NextJs", "Wordpress", "Figma" ] 
     }, 
     {
         "period": {
@@ -96,6 +96,40 @@
             "Maintain the company's Saas platform (resumedone.co)",
             "Create and maintain the company's marketing blogs using webflow."
         ],
-        "skills": ["NextJs", "ReactJs", "Webflow", "Apollo Graphql"] 
+        "skills": ["NextJs", "ReactJs", "Webflow", "Apollo Graphql", "A/B Testing"] 
+    }, 
+    {
+        "period": {
+            "from": "apr 2025",
+            "to": "aug 2025"
+        },
+        "company": {
+            "name": "INRIA France - EVREF Research Team",
+            "website": "https://www.inria.fr/en"
+        },
+        "position": "Software Engineer Intern",
+        "tasks": [
+            "Development of a &nbsp; <a href='https://github.com/moosetechnology/Famix-C-Importer' target='_blank'> C code parser</a>&nbsp;into a Famix model",
+            "Application of the Visitor pattern for AST processing",
+            "Contributions to Moose/Pharo repositories: bug fixes on GitHub"
+        ],
+        "skills": ["Open Source", "Smalltalk", "Pharo", "Moose", "Static Analysis", "C", "TDD", "POO", "Tree-sitter"] 
+    },
+    {
+        "period": {
+            "from": "Oct 2025",
+            "to": "dec 2025"
+        },
+        "company": {
+            "name": "INRIA France - EVREF & P16 Research Team",
+            "website": "https://www.inria.fr/en"
+        },
+        "position": "Software Engineer",
+        "tasks": [
+            "Analysis of AI Python libraries and implementation of software quality rules in the Moose platform",
+            "Contribution to the maintenance of the Python parser using a TDD approach",
+            "Writing software analysis reports"
+        ],
+        "skills": ["Smalltalk", "Pharo", "Moose", "Static Analysis", "Python", "TDD", "POO", "Tree-sitter"] 
     }
 ]

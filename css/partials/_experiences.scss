@@ -40,7 +40,7 @@ body>.experiencesSection{
                     }
                 }
                 .details{
-                    width: 400px;
+                    max-width: 430px;
                     h3.company{
                         margin: 0;
                         font-family: $gilroyBold;
@@ -60,6 +60,9 @@ body>.experiencesSection{
                         list-style-type: none;
                         padding-left: 15px;
                         padding: 0;
+                        a{
+                            color: $cyan;
+                        }
                         li{
                             margin-bottom: 12px;
                             display: flex;
@@ -72,6 +75,11 @@ body>.experiencesSection{
                                 margin-right: 20px;
                                 margin-top: 5px;
                             }
+                        }
+                    }
+                    .skills{
+                        .skill{
+
                         }
                     }
                 }

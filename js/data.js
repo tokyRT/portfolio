@@ -50,7 +50,7 @@ fetch("../data/experiences.json")
                         <ul class="skills">`;
 
             xp.skills.forEach(skill => {
-                xpsHtml += `<li class="skill">${skill}</li>`;
+                xpsHtml += `<li class="skill skill-sm">${skill}</li>`;
             });
 
             xpsHtml += `</ul>

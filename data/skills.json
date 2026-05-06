@@ -17,7 +17,7 @@
     {
         "categorie_name": "Databases",
         "color": "#07FDDB",
-        "skills": ["MySql", "PostgreSQL", "PostGis", "MongoDB", "Redis"]
+        "skills": ["PostgreSQL", "MySql", "PostGis", "MongoDB", "Redis"]
     },
     {
         "categorie_name": "Tools",
