@@ -1,6 +1,6 @@
 body>.about{
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,10 +36,17 @@ body>.about{
             margin: 0;
             position: relative;
         }
-        p{
-            max-width: 350px;
+        .content_text{
+            max-width: 450px;
             margin-left: auto;
             margin-right: 0;
+            p {
+                margin-bottom: 40px;
+                a{
+                color: $cyan;
+            }
+            }
+            
         }
     }
     @function add($size, $precentage){

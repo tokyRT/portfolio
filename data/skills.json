@@ -22,6 +22,6 @@
     {
         "categorie_name": "Tools",
         "color": "#011EDC",
-        "skills": ["Git", "Github", "Gitlab", "Jira", "Figma", "Notion"]
+        "skills": ["Docker", "Git", "Github", "Gitlab", "Jira", "Figma", "Notion", "n8n"]
     }
 ]

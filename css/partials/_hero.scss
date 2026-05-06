@@ -27,14 +27,6 @@
             // line-height: 12vw;
             margin-left: -10px;
         }
-        .socials {
-            list-style-type: none;
-            display: flex;
-            padding: 0;
-            li {
-                margin-right: 13px;
-            }
-        }
     }
     .image {
         height: calc(100vh - 100px);
@@ -116,11 +108,6 @@
                 margin-left: 0;
                 font-size: 14vw;
                 margin-bottom: 40px;
-            }
-            .socials{
-                li{
-                    margin-right: 20px;
-                }
             }
         }
         .image{
